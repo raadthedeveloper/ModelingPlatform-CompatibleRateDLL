@@ -1,0 +1,4 @@
+LIBRARY rate
+EXPORTS
+    GetRate@8
+    ValidateClass@4 

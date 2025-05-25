@@ -1,0 +1,13 @@
+' Author: Raad Fakhrian
+' [github.com/raadthedeveloper](https://github.com/raadthedeveloper)
+
+' Declare the unmanaged DLL functions
+Declare Function GetRate Lib "$PATH\$DATASET\library\rate.dll" (ByVal PolicyInfo As String, ByRef Rate As Double) As Long
+Declare Function ValidateClass Lib "$PATH\$DATASET\library\rate.dll" (ByVal GenderSmoker As String) As Long
+
+' --------------------------------------------------------------------------------
+' Note: This file only contains declarations for the unmanaged external DLL functions.
+' The implementation logic resides entirely within the DLL (rate.dll).
+' Usage of the DLL and this script is subject to the terms outlined in the LICENSE.txt
+' in the main repository.
+' --------------------------------------------------------------------------------
