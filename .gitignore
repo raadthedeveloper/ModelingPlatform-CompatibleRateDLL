@@ -13,3 +13,9 @@ Thumbs.db
 
 # Ignore IDE configs
 .vscode/
+
+# CMake build artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
